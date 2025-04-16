@@ -96,10 +96,10 @@ fun calculadoraColores(navController: NavController, historial: MutableList<Stri
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Mueve el resultado aquí arriba
+
         Text(
             "Resultado: $resultado Ω $toleranciaValor",
-            fontSize = 24.sp,  // Aumenta el tamaño del texto
+            fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
             color = Color.Black
         )
